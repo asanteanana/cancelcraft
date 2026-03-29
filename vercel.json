@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm install --prefix cancelcraft",
+  "buildCommand": "npm run build --prefix cancelcraft",
+  "outputDirectory": "cancelcraft/dist",
+  "framework": null,
+  "cleanUrls": true,
+  "rewrites": [{ "source": "/:path*", "destination": "/" }]
+}
